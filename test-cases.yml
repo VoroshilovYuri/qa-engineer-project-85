@@ -38,10 +38,10 @@
     prerequisites:
       email уже ранее зарегестрирован
     test-data: |
-       Nickname = qwerty85
-       Email = codebattle85@gmail.com
-       Password = codebattle89
-       Password = codebattle89
+      Nickname = qwerty85
+      Email = codebattle85@gmail.com
+      Password = codebattle89
+      Password = codebattle89
     steps:
       - Нажать "Sign up"
       - Ввести тестовые данные в поля формы регистрации 
@@ -83,7 +83,7 @@
       Пользователь успешно авторизован, попадая на главную страницу https://codebattle.hexlet.io/#lobby и видит надпись под футером Successfully authenticated
   
   - summary: |
-       Проверка выбора максимального уровня сложности игры
+      Проверка выбора максимального уровня сложности игры
     requirement: |
       Пользователь должен иметь возможность выбирать подходящий ему уровень игры
     prerequisites: 
@@ -108,10 +108,10 @@
     prerequisites: 
       Пользователь создал игру с ботом и находится в активной игре
     test-data: |
-       Соперник - бот
-       Выбрать задачу "rect_area" в поле "Choose task by name or tags"
-       Задача - поиск площади прямоугольника
-       Код - const _ = require("lodash");
+      Соперник - бот
+      Выбрать задачу "rect_area" в поле "Choose task by name or tags"
+      Задача - поиск площади прямоугольника
+      Код - const _ = require("lodash");
              const R = require("rambda");
 
             const solution = (width, length) => {
@@ -163,7 +163,7 @@
       Пользователь авторизован в приложении
       Открыта любая созданная игра с ботом
     test-data: |
-       Текст - "Hi, friend!"
+      Текст - "Hi, friend!"
     steps:
       - В поле чата с соперником ввести текст "Hi, friend!"
       - Нажать "Send"
@@ -178,7 +178,7 @@
       Открыта главная страница https://codebattle.hexlet.io/
       Пользователь не зарегестрирован
     test-data: |
-       no data
+      no data
     steps:
       - На главной странице нажать "TRY SINPLE BATTLE"
     expected-result: |
